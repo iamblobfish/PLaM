@@ -2,7 +2,7 @@ int main()
 {
     int n, sum;
     int error, i;
-    printf("Give me 5 numbers");
+    printf("Give me 5 numbers\n");
     for (i=0; i<5; i++){
         error = scanf("%d", &n);
         if (n!=1){
